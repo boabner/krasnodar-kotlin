@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7d6657b-244d-4e16-902a-577af2406abf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Concatenacao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Condicionais.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Estruturas.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Variaveis.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/krasnodar-kotlin/META-INF/krasnodar-kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/krasnodar-kotlin/META-INF/krasnodar-kotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/krasnodar-kotlin/MainKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,11 +20,12 @@
       <list>
         <option value="Kotlin Script" />
         <option value="Kotlin Worksheet" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -32,7 +39,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -40,7 +50,21 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.EstruturasKt">
+    <configuration name="CondicionaisKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CondicionaisKt" />
+      <module name="krasnodar-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EstruturasKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EstruturasKt" />
+      <module name="krasnodar-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="krasnodar-kotlin" />
@@ -50,6 +74,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.EstruturasKt" />
+        <item itemvalue="Kotlin.CondicionaisKt" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
