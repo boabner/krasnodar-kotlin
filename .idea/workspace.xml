@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7d6657b-244d-4e16-902a-577af2406abf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Concatenacao.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Condicionais.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Estruturas.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Variaveis.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/model/Usuario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/krasnodar-kotlin/Concatenacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/krasnodar-kotlin/ConcatenacaoKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/krasnodar-kotlin/EstruturasKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/krasnodar-kotlin/EstruturasKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/krasnodar-kotlin/META-INF/krasnodar-kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/krasnodar-kotlin/META-INF/krasnodar-kotlin.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/krasnodar-kotlin/MainKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/krasnodar-kotlin/Variaveis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/krasnodar-kotlin/VariaveisKt.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +41,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -50,7 +50,7 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.EstruturasKt">
+  <component name="RunManager" selected="Kotlin.UsuarioKt">
     <configuration name="CondicionaisKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CondicionaisKt" />
       <module name="krasnodar-kotlin" />
@@ -72,8 +72,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UsuarioKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.UsuarioKt" />
+      <module name="krasnodar-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.UsuarioKt" />
         <item itemvalue="Kotlin.EstruturasKt" />
         <item itemvalue="Kotlin.CondicionaisKt" />
         <item itemvalue="Kotlin.MainKt" />
