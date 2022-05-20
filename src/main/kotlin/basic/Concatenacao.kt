@@ -1,4 +1,4 @@
-package basics
+package basic
 
 class Concatenacao {
 
