@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7d6657b-244d-4e16-902a-577af2406abf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/model/Usuario.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/krasnodar-kotlin/Concatenacao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/krasnodar-kotlin/ConcatenacaoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/krasnodar-kotlin/EstruturasKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/krasnodar-kotlin/EstruturasKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/krasnodar-kotlin/META-INF/krasnodar-kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/krasnodar-kotlin/META-INF/krasnodar-kotlin.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/krasnodar-kotlin/Variaveis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/krasnodar-kotlin/VariaveisKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Usuario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Usuario.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -2,18 +2,24 @@ package model
 
 class Usuario {
 
-    // encapsulamento
-
+    // encapsulamento com private
     private var nome = ""
-    private var sobrenome = ""
+
     // Exemplo de tipagem explicita
-    private var cpf: String  = ""
+    var apelido: String  = ""
+
+    //Exemplo de properties (redundante pois já é o padrão, a nao ser que vc precise implementar regras)
+    private var cpf = ""
+        private set(valor) { // <- exemplo de como encapsular somente um dos properties
+            field = valor
+        }
+        get
 
     // public
-    var apelido = ""
+    var sobrenome = ""
     var idade = 0
 
-    // getter
+    // getter (não é uma boa pratica, apenas exemplificando)
     fun getNome(): String {
         return nome;
     }
@@ -21,14 +27,6 @@ class Usuario {
     // setter (não é uma boa pratica, apenas exemplificando)
     fun setNome(nome: String) {
         this.nome = nome;
-    }
-
-    fun getSobrenome(): String {
-        return sobrenome;
-    }
-
-    fun setSobrenome(sobrenome: String) {
-        this.sobrenome = sobrenome;
     }
 
     fun getCpf(): String {
@@ -60,17 +58,19 @@ fun main() {
 
     // private
     usuario.setNome("Abner")
-    usuario.setSobrenome("Goncalves")
+    usuario.sobrenome = "Goncalves"
     usuario.alterarCpf("000.000.000-00")
     // public
-    usuario.apelido = "Bo"
     usuario.idade = 28
+
+    // properties
+    usuario.apelido = "Bo"
 
     // Fazendo get nos valores
 
     // private
     println("Nome do usuario ${usuario.getNome()}")
-    println("Sobrenome ${usuario.getSobrenome()}")
+    println("Sobrenome ${usuario.sobrenome}")
     println("CPF ${usuario.getCpf()}")
 
     // public
