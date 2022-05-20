@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7d6657b-244d-4e16-902a-577af2406abf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/krasnodar-kotlin/model/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/krasnodar-kotlin/model/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/krasnodar-kotlin/model/UsuarioKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/krasnodar-kotlin/model/UsuarioKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Usuario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Usuario.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

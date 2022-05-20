@@ -1,22 +1,24 @@
 package model
 
-class Usuario {
+class Usuario(
+    // Construtor primário
+    private var nome: String,// Exemplo de tipagem explicita (:String)
+    private var sobrenome: String
+
+) {
+
+    //Exemplos de properties
+    var apelido: String  = ""
+        private set // set private
 
     // encapsulamento com private
-    private var nome = ""
-
-    // Exemplo de tipagem explicita
-    var apelido: String  = ""
-
-    //Exemplo de properties (redundante pois já é o padrão, a nao ser que vc precise implementar regras)
     private var cpf = ""
         private set(valor) { // <- exemplo de como encapsular somente um dos properties
             field = valor
         }
         get
 
-    // public
-    var sobrenome = ""
+    // public, sem get e set
     var idade = 0
 
     // getter (não é uma boa pratica, apenas exemplificando)
@@ -24,9 +26,8 @@ class Usuario {
         return nome;
     }
 
-    // setter (não é uma boa pratica, apenas exemplificando)
-    fun setNome(nome: String) {
-        this.nome = nome;
+    fun getSobrenome(): String {
+        return sobrenome;
     }
 
     fun getCpf(): String {
@@ -36,6 +37,10 @@ class Usuario {
     // Apenas para exemplificar a tipagem por parametro em um método do tipo 'comportamento'
     fun alterarIdade(idade: Int) {
         this.idade = idade
+    }
+
+    fun alterarApelido(apelido: String) {
+        this.apelido = apelido
     }
 
     fun alterarCpf(cpf: String) {
@@ -49,41 +54,36 @@ class Usuario {
 }
 
 fun main() {
-    println("Criando conta de usuário")
+    println("Criando conta de usuario")
 
     // Criando nova instância
-    val usuario = Usuario()
+    //nome esta com label e sobrenome nao
+    val usuario = Usuario(nome = "Abner", "Gonçalves")
 
     // Setando valores
-
     // private
-    usuario.setNome("Abner")
-    usuario.sobrenome = "Goncalves"
     usuario.alterarCpf("000.000.000-00")
+
     // public
     usuario.idade = 28
 
-    // properties
-    usuario.apelido = "Bo"
-
     // Fazendo get nos valores
-
     // private
     println("Nome do usuario ${usuario.getNome()}")
-    println("Sobrenome ${usuario.sobrenome}")
+    println("Sobrenome ${usuario.getSobrenome()}")
     println("CPF ${usuario.getCpf()}")
 
     // public
     println("Idade ${usuario.idade}")
 
-
     // Método do tipo 'comportamento'
     usuario.alterarIdade(29)
+    usuario.alterarApelido("Bo")
 
     println("Nova idade do usuario: ${usuario.idade}")
 
     if (usuario.validaMaiorIdade()) {
-        println("O usuário já pode ser preso.")
+        println("O usuario ja pode ser preso.")
     }
 
 }
