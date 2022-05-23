@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7d6657b-244d-4e16-902a-577af2406abf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/krasnodar-kotlin/model/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/krasnodar-kotlin/model/Usuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/krasnodar-kotlin/model/UsuarioKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/krasnodar-kotlin/model/UsuarioKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/model/PessoaFisica.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Usuario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Usuario.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +15,7 @@
       <list>
         <option value="Kotlin Script" />
         <option value="Kotlin Worksheet" />
+        <option value="Class" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -32,15 +32,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin" />

@@ -1,10 +1,9 @@
 package model
 
-class Usuario(
+open class Usuario(
     // Construtor primário
     private var nome: String,// Exemplo de tipagem explicita (:String)
     private var sobrenome: String
-
 ) {
 
     //Exemplos de properties
@@ -35,7 +34,7 @@ class Usuario(
     }
 
     // Apenas para exemplificar a tipagem por parametro em um método do tipo 'comportamento'
-    fun alterarIdade(idade: Int) {
+    open fun alterarIdade(idade: Int) {
         this.idade = idade
     }
 
